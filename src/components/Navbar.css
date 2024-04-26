@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Foldit:wght@100..900&display=swap');
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+    /* background-color: transparent; */
+}
+.navContent{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f4f9;
+    
+
+}
+.navLeft {
+    padding-left: 1.5rem;
+    width: 6rem;
+}
+.navLeft h1 a{
+    font-family: "Bungee Spice", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.nav-menu{
+    width: 60%;
+    
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2.5rem;
+    width: 100%;
+    /* margin: 0px 0px  0px 0px  ; */
+}
+.nav-menu li a{
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    color: #343d68;
+    transition: 0.4s ease-in-out;
+}
+.nav-menu li{
+    /* list-style-type: none; */
+}
+.nav-menu li a:hover,
+.nav-menu li a.active{
+    color: #FC501A;
+    cursor: pointer;
+} 
+.nav-menu li a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-color:#ff7247;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: width 0.3s;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    border-radius: 50%;
+}
+.nav-menu li a.active::after{
+    transform: scaleX(1);
+}
+.navMiddle{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+}
+.navRight{
+    width: 30%;
+    display: flex;
+}
+
+.humburger{
+    display: none;
+}
+
+@media screen and (max-width:1300px){
+    .nav-menu{
+        gap:0.5rem;
+        padding-left: 1rem;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: start;
+        width: 150px;
+        height: 190px;
+        background: #f1f4f9;
+        position: absolute;
+        top: 2.6rem;
+        right: -100%;
+        z-index: -3;
+        transition: 0.5s;
+        padding-right: 1rem;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+    .navRight{
+        display: none;
+    }
+    .nav-menu.active{
+        right: 0.5rem;
+    }
+    .nav-menu li a{
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    .humburger{
+        display: initial;
+        padding-right: 1rem;
+    }
+    .nav-menu li a:hover {
+        color: #FC501A;
+
+    }
+    .navContent{
+        height: 35px;
+    }
+    .nav-menu li{
+        padding-right: 0;
+        padding-bottom: 0.5rem;
+    }
+}

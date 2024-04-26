@@ -1,0 +1,114 @@
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact-section{
+    
+    margin-top: 14rem;
+    width: 100%;
+    /* padding-top: 10rem; */
+    background: #f1f4f9;
+  
+  }
+  @media (max-width:1300px){
+    .contact-section{
+      margin-top: 0;
+    }
+  }
+  .contact-heading{
+    font-size: 5em;
+    font-weight: 700;
+    color: var(--bgOrange);
+    padding-top: 2rem;
+    margin-left: 2rem;
+    
+  }
+  @media (max-width:1300px){
+    .contact-heading{
+      font-weight:700;
+      text-align: center;
+      font-size: 3em;
+    }
+  }
+  .contact-sub-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #343d68aa;
+    text-transform: capitalize;
+    margin-left: 2rem;
+
+  }
+  @media (max-width:1300px){
+    .contact-sub-heading{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  .contact-container{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    margin: 2rem 5rem;
+  }
+ 
+  .formfield-container{
+    width: 100%;
+  }
+  @media (max-width:1300px){
+    .form{
+      width: 100%;
+      margin: 0;
+      align-items: center;
+    }
+    .formfield-container{
+      width: 90%;
+    }
+  }
+  .formfield{
+    width: 95%;
+    height: 42px;
+    padding: 0 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    font-weight: 500;
+    margin: 17px;
+    border: none;
+  }
+ 
+  .formfield-textarea{
+    height:auto;
+    padding-top: 1rem;
+  
+  }
+  /* @media (max-width:1300px){
+    .formfield{
+      width: 90%;
+    }
+  } */
+  #submit-button{
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s;
+    
+  }
+  #submit-button:hover{
+    transform: scale(0.9) ;
+    /* scale: 0.9; */
+  }
+  .submit-icon{
+    padding: 0 1rem;
+    font-size: 2rem;
+  }

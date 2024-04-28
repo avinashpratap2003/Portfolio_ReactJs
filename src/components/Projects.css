@@ -37,7 +37,7 @@
   .card{
     width: 90%;
     height: 550px;
-    background-image: url('projects/Project1.png');
+    background-image: url('projects/portfolio-bg-image.webp');
     background-repeat: no-repeat;
     background-size: cover; 
     position: relative;
@@ -153,28 +153,29 @@
     height: 40px;
     
   }
-  .tint-n-orange{
+  .project-name{
     font-size: 50px;
     font-weight: bold;
     line-height: 3rem;
   }
-  @media (max-width:1300px) {
-    .tint-n-orange{
+ 
+.project-description{
+  width: 70%;
+  font-size: 16px;
+  font-style: italic;
+}
+ @media (max-width:1300px) {
+    .project-name{
       font-size: 40px;
       width: 100%;
     }
     .icon{
       width: 35px;
     }
-    .paragraph{
+    .project-description{
       width: 100%;
     }
   }
-.paragraph{
-  width: 70%;
-  font-size: 16px;
-  font-style: italic;
-}
 .btn-group{
   display: flex;
   gap: 0.9rem;

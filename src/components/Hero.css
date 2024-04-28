@@ -47,51 +47,7 @@
 
 
 
-/* adding media query for width>=1300px */ 
-@media screen and (min-width:1301px){
-  #hire-button{
-    display: initial;
-  }
-  .faded-name{
-    display:block;
-  }
-  #hire-button{
-    visibility: visible;
-  }
-  .hero-container{
-    margin: 10rem auto 3rem;
-    flex-direction: row;
-    
-  }
-  .hero-left{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 2rem;
-    /* margin-right:5rem; */
-  }
-  .hero-right{
-    width: 40%;
-    transform: translateX(-30%);
-    /* margin-right: 5rem; */
-    /* aspect-ratio: 1/1; */
-  }
-  #bottom-button{
-    /* visibility: hidden; */
-    /* transition: ; */
-    display: none;
-  }
-  .para{
-    width: 70%;
-  }
-  .para h1{
-    text-align: left;
-  }
-  #bottom-button{
-    display: none;
-  }
-}
+
 
 
 
@@ -106,8 +62,10 @@
   color: #343d68;
   font-weight: 500;
   font-size: 45px;
+  text-align: center;
   /* display: block; */
 }
+
 .job{
     color: #4e45d5;
     font-weight: 800;
@@ -270,3 +228,52 @@
       left: 48%;
     }
   }
+/* adding media query for width>=1300px */ 
+@media screen and (min-width:1301px){
+  #hire-button{
+    display: initial;
+  }
+  .faded-name{
+    display:block;
+  }
+  #hire-button{
+    visibility: visible;
+  }
+  .hero-container{
+    margin: 10rem auto 3rem;
+    flex-direction: row;
+    
+  }
+  .hero-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    /* margin-right:5rem; */
+  }
+  .hero-right{
+    width: 40%;
+    transform: translateX(-30%);
+    /* margin-right: 5rem; */
+    /* aspect-ratio: 1/1; */
+  }
+  #bottom-button{
+    /* visibility: hidden; */
+    /* transition: ; */
+    display: none;
+  }
+  .para{
+    width: 70%;
+  }
+  .para h1{
+    text-align: left;
+  }
+  #bottom-button{
+    display: none;
+  }
+  .sub-heading{
+    text-align: start;
+
+    }
+}

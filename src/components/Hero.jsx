@@ -38,20 +38,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-right">
-          <img
-            className="circle absolute"
-            src="usr profile/circle.png"
-            alt=""
-          />
+          <img className="circle absolute" src="usr profile/circle.png" alt=""/>
           <img className="cube absolute" src="usr profile/cube.png" alt="" />
           <img className="dots absolute" src="usr profile/dots.png" alt="" />
           <img className="plus absolute" src="usr profile/plus.png" alt="" />
-          <img
-            className="zigzak absolute"
-            src="usr profile/zigzags.png"
-            alt=""
-          />
-          <img className="image2 " src="usr profile/image.jpg" alt="" />
+          <img className="zigzak absolute"src="usr profile/zigzags.png" alt=""/>
+          <img className="profile-pic " src="usr profile/image.jpg" alt="" />
         </div>
         <div className="button" id="bottom-button">
           Hire me

@@ -211,6 +211,10 @@
     
   }
 }
+#project_one_link{
+  pointer-events: none;
+  cursor: default;
+}
 #project2{
   background-image: url('projects/putatoe_bg_image.jpg');
   margin-left: 120px;

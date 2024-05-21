@@ -32,7 +32,7 @@ const Projects = () => {
                 <button className="button card-button ">
                   <a href="https://github.com/avinashpratap2003/Portfolio_ReactJs">Read More</a></button>
                 <a title="Github" href="https://github.com/avinashpratap2003/Portfolio_ReactJs"><FaGithub /></a>
-                <a title="Project Link" href=""><PiLinkSimpleBold /></a>
+                <a title="Project Link" id="project_one_link" href=""><PiLinkSimpleBold /></a>
               </div>
             </div>
           </div>

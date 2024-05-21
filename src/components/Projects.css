@@ -212,8 +212,9 @@
   }
 }
 #project2{
-  background-image: url('projects/Project2.png');
+  background-image: url('projects/putatoe_bg_image.jpg');
   margin-left: 120px;
+  background-position: left;
 }
 @media (max-width:1300px) {
   #project2{

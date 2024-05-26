@@ -216,7 +216,7 @@
   cursor: default;
 }
 #project2{
-  background-image: url('projects/putatoe_bg_image.jpg');
+  background-image: url('projects/Prepeat_bg_image.png');
   margin-left: 120px;
   background-position: left;
 }
@@ -241,10 +241,11 @@
   } 
 }
 #project3{
-  background-image: url('projects/Project3.png');
+  background-image: url('projects/putatoe_bg_image.jpg');
+  background-position: left;
 }
 #project4{
-  background-image: url('projects/Project4.png');
+  background-image: url('projects/Project3.png');
   margin-left: 120px;
   margin-bottom: 2rem;
 }

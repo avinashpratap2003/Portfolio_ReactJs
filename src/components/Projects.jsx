@@ -16,20 +16,14 @@ const Projects = () => {
                 <img className="icon" src="stacks/HTML.png" alt="html" />
                 <img className="icon" src="stacks/CSS.png" alt="css" />
                 <img className="icon" src="stacks/Javascript.svg" alt="java" />
-                {/* <img className="icon" src="stacks/Express.png" alt="" /> */}
-                {/* <img className="icon" src="stacks/Next.svg" alt="" /> */}
-                {/* <img className="icon" src="stacks/Tailwind.png" alt="" /> */}
-                {/* <img className="icon" src="stacks/NodeJs.svg" alt="" /> */}
-                {/* <img className="icon" src="stacks/MongoDB.svg" alt="" /> */}
                 <img className="icon" src="stacks/React.png" alt="reactjs" />
-                {/* <img className="icon" src="stacks/Vercel.svg" alt="" /> */}
               </div>
               <h2 className="project-name">Portfolio</h2>
               <p className="project-description">
                 This website has been made using ReactJS and CSS. This Portfolio contains all my works.
               </p>
               <div className="btn-group">
-                <button className="button card-button ">
+                <button className="button ">
                   <a href="https://github.com/avinashpratap2003/Portfolio_ReactJs">Read More</a></button>
                 <a title="Github" href="https://github.com/avinashpratap2003/Portfolio_ReactJs"><FaGithub /></a>
                 <a title="Project Link" id="project_one_link" href=""><PiLinkSimpleBold /></a>
@@ -46,46 +40,40 @@ const Projects = () => {
                 <img className="icon" src="stacks/Javascript.svg" alt="" />
                 <img className="icon" src="stacks/React.png" alt="reactjs" />
               </div>
-              <h2 className="project-name">E-Commerce Website</h2>
+              <h2 className="project-name">Prepeat</h2>
               <p className="project-description">
-                An e-commerce website which contains different daily usage products to the customers.
+                A frontend designed food delivery website which contains different food service sections to provide varities of options to the customers.
               </p>
               <div className="btn-group">
-                <button className="button card1-button  ">
+                <button className="button">
+                <a href="https://github.com/avinashpratap2003/PrepEat_react">Read More</a></button>
+                <a title="Github" href="https://github.com/avinashpratap2003/PrepEat_react"><FaGithub /></a>
+                <a title="Project Link" href="https://prep-eat-react.vercel.app/"><PiLinkSimpleBold /></a>
+              </div>
+            </div>
+          </div>
+           {/* project 3  */}
+          <div className="card" id="project3">
+            <div className="p-number p-n-right">03</div>
+            <div className="card-content ">
+              <div className="card-content-skills">
+                <img className="icon" src="stacks/HTML.png" alt="html" />
+                <img className="icon" src="stacks/CSS.png" alt="css" />
+                <img className="icon" src="stacks/Javascript.svg" alt="java" />
+                <img className="icon" src="stacks/React.png" alt="reactjs" />
+              </div>
+              <h2 className="project-name">Putatoe</h2>
+              <p className="project-description">
+              A frontend designed e-commerce website which contains different daily usage products for the customers.
+              </p>
+              <div className="btn-group">
+                <button className="button">
                 <a href="https://github.com/avinashpratap2003/Putatoe_react_Js">Read More</a></button>
                 <a title="Github" href="https://github.com/avinashpratap2003/Putatoe_react_Js"><FaGithub /></a>
                 <a title="Project Link" href="https://putatoe-react-js.onrender.com/"><PiLinkSimpleBold /></a>
               </div>
             </div>
           </div>
-          {/* <!-- project 3 --> */}
-          {/* <div className="card" id="project3">
-            <div className="p-number p-n-right">03</div>
-            <div className="card-content ">
-              <div className="card-content-skills">
-                <img className="icon" src="stacks/HTML.png" alt="" />
-                <img className="icon" src="stacks/CSS.png" alt="" />
-                <img className="icon" src="stacks/Javascript.svg" alt="" /> */}
-                {/* <!-- <img className="icon" src="stacks/Express.png" alt=""> --> */}
-                {/* <img className="icon" src="stacks/Next.svg" alt="" />
-                <img className="icon" src="stacks/Tailwind.png" alt="" /> */}
-                {/* <!-- <img className="icon" src="stacks/NodeJs.svg" alt=""> --> */}
-                {/* <!-- <img className="icon" src="stacks/MongoDB.svg" alt="">s --> */}
-                {/* <img className="icon" src="stacks/Redux.svg" alt="" />
-                <img className="icon" src="stacks/Vercel.svg" alt="" />
-              </div>
-              <h2 className="project-name">Isha Tattva</h2>
-              <p className="project-description">
-                A website for interior designer to showcase her works and
-                samples
-              </p>
-              <div className="btn-group">
-                <button className="button card1-button ">Read More</button>
-                <a title="Github" href=""><FaGithub /></a>
-                <a title="Project Link" href=""><PiLinkSimpleBold /></a>
-              </div>
-            </div>
-          </div> */}
           {/* <!-- project 4 --> */}
           {/* <div className="card" id="project4">
             <div className="p-number p-n-left">04</div>

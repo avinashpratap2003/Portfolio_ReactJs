@@ -23,16 +23,16 @@ const Footer = () => {
               </div>
             </div>
             <div className="icon-wrapper ">
-              <a title="Linkedin">
+              <a href="https://www.linkedin.com/in/avinash-pratap-b22058233/" title="Linkedin">
                 <FaLinkedin />
               </a>
-              <a title="Github">
+              <a href="https://github.com/avinashpratap2003" title="Github">
                 <FaGithub />
               </a>
               <a title="Instagram">
                 <FaInstagram />
               </a>
-              <a title="Gmail">
+              <a href="mailto:pratapavinash843@gmail.com" title="Gmail">
                 <IoMailOutline />
               </a>
             </div>

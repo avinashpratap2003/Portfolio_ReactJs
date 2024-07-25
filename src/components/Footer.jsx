@@ -3,6 +3,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
+import { FaMobileAlt } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -34,6 +36,9 @@ const Footer = () => {
               </a>
               <a href="mailto:pratapavinash843@gmail.com" title="Gmail">
                 <IoMailOutline />
+              </a>
+              <a title="+91-9151486417">
+                <FaMobileAlt />
               </a>
             </div>
           </div>

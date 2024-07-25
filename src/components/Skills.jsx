@@ -67,19 +67,19 @@ const Skills = () => {
           <img className="skills-icons " src="stacks/CSS.png" alt="" />
           <img className="skills-icons " src="stacks/Javascript.svg" alt="" />
           <img className="skills-icons " src="stacks/React.png" alt="" />
-          {/* <img className="skills-icons " src="stacks/NodeJs.svg" alt="" /> */}
+          <img className="skills-icons " src="stacks/NodeJs.svg" alt="" />
           <img className="skills-icons " src="stacks/NextJsCircle.png" alt="" />
           <img className="skills-icons " src="stacks/c.svg" alt="" />
           <img className="skills-icons " src="stacks/c++.svg" alt="" />
           {/* <img className="skills-icons " src="stacks/Redux.svg" alt="" /> */}
           <img className="skills-icons " src="stacks/Tailwind.png" alt="" />
           <img className="skills-icons " src="stacks/Bootstrap.svg" alt="" />
-          {/* <img className="skills-icons " src="stacks/MaterialUI.svg" alt="" /> */}
+          <img className="skills-icons " src="stacks/MaterialUI.svg" alt="" />
           {/* <img className="skills-icons " src="stacks/Express.png" alt="" /> */}
           <img className="skills-icons " src="stacks/Git.svg" alt="" />
           <img className="skills-icons " src="stacks/Github.svg" alt="" />
           {/* <img className="skills-icons " src="stacks/Graphql.svg" alt="" /> */}
-          {/* <img className="skills-icons " src="stacks/MongoDB.svg" alt="" /> */}
+          <img className="skills-icons " src="stacks/MongoDB.svg" alt="" />
           <img className="skills-icons " src="stacks/Vercel.svg" alt="" />
           <img className="skills-icons " src="stacks/mysql.svg" alt="" />
 

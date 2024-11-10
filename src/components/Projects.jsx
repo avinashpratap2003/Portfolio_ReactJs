@@ -20,7 +20,7 @@ const Projects = () => {
               </div>
               <h2 className="project-name">Portfolio</h2>
               <p className="project-description">
-                This website has been made using ReactJS and CSS. This Portfolio contains all my works.
+              This portfolio website showcases a collection of my projects, built with ReactJS for a smooth and responsive user experience.
               </p>
               <div className="btn-group">
                 <button className="button ">
@@ -42,7 +42,8 @@ const Projects = () => {
               </div>
               <h2 className="project-name">Prepeat</h2>
               <p className="project-description">
-                A frontend designed food delivery website which contains different food service sections to provide varities of options to the customers.
+              This food delivery website offers a seamless and user-friendly experience with its intuitive interface,
+               customers can easily explore menus, customize orders, and enjoy swift delivery right to their doorsteps.
               </p>
               <div className="btn-group">
                 <button className="button">

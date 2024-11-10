@@ -134,7 +134,7 @@
     .p-n-left .p-n-right{
       display: none;
     }
-}
+  }
   .card-content-skills{
     max-width: 60%;
     width: fit-content;
@@ -165,13 +165,13 @@
   font-style: italic;
 }
  @media (max-width:1300px) {
-    .project-name{
+    /* .project-name{
       font-size: 40px;
       width: 100%;
-    }
-    .icon{
+    } */
+    /* .icon{
       width: 35px;
-    }
+    } */
     .project-description{
       width: 100%;
     }

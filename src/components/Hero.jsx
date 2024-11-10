@@ -45,6 +45,7 @@ const Hero = () => {
           <img className="zigzak absolute"src="usr profile/zigzags.png" alt=""/>
           <img className="profile-pic " src="usr profile/image.jpg" alt="" />
         </div>
+        
         <div className="button" id="bottom-button">
           Hire me
         </div>

@@ -1,4 +1,3 @@
-
 .projects-section{
     background-color: #f1f4f9;
     /* margin-top: 4rem; */
@@ -37,13 +36,12 @@
   .card{
     width: 90%;
     height: 550px;
-    background-image: url('src/assets/portfolio-bg-image.webp');
+    background-image: url('./public/projects/portfolio-bg-image.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
     position: relative;
     box-shadow: 0px 0px 40px #1f1f1f;
     object-fit: cover;
-  
   }
 
   .card::after {

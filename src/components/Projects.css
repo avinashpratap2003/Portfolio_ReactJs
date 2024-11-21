@@ -239,11 +239,11 @@
   } 
 }
 #project3{
-  background-image: url('projects/putatoe_bg_image.jpg');
+  background-image: url('projects/putatoe_bg_image.jpg?v=1');
   background-position: left;
 }
 #project4{
-  background-image: url('projects/Project3.png');
+  background-image: url('projects/Project3.png?v=1');
   margin-left: 120px;
   margin-bottom: 2rem;
 }

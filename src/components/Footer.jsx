@@ -47,7 +47,7 @@ const Footer = () => {
                   </a>
                 </div>
 
-                <p className=" text-white font-medium xl: text-xs">&copy; {currentYear} Avinash Pratap. All rights reserved.</p>
+                <p className=" text-white text-xs xl:text-base">&copy; {currentYear} Avinash Pratap. All rights reserved.</p>
             </div>
             
           </div>

@@ -36,7 +36,7 @@
   .card{
     width: 90%;
     height: 550px;
-    background-image: url('/projects/portfolio-bg-image.jpg?v=1');
+    background-image: url('/projects/portfolio-bg-image2.png?v=1');
     background-repeat: no-repeat;
     background-size: cover; 
     position: relative;
@@ -214,9 +214,11 @@
   cursor: default;
 }
 #project2{
-  background-image: url('/projects/Prepeat_bg_image.png?v=1');
+  background-image: url('/projects/prepeat_project.png?v=1');
   margin-left: 120px;
-  background-position: left;
+  background-position: center;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
 }
 @media (max-width:1300px) {
   #project2{
@@ -239,8 +241,10 @@
   } 
 }
 #project3{
-  background-image: url('/projects/putatoe_bg_image.jpg?v=1');
-  background-position: left;
+  background-image: url('/projects/shoppingmart_img2.png?v=1');
+  background-position: center;
+  background-size: contain;
+
 }
 #project4{
   background-image: url('/projects/Project3.png?v=1');

@@ -17,14 +17,19 @@ const Projects = () => {
                 <img className="icon" src="stacks/CSS.png" alt="css" />
                 <img className="icon" src="stacks/Javascript.svg" alt="java" />
                 <img className="icon" src="stacks/React.png" alt="reactjs" />
+                <img className="icon" src="stacks/Tailwind.png" alt="" />
+                <img className="icon" src="stacks/Vercel.svg" alt="" />
+                <img className="icon" src="stacks/Git.svg" alt="" />
+                <img className="icon" src="stacks/Github.svg" alt="" />
+
               </div>
               <h2 className="project-name">Portfolio</h2>
               <p className="project-description">
               This portfolio website showcases a collection of my projects, built with ReactJS for a smooth and responsive user experience.
               </p>
               <div className="btn-group">
-                <button className="button ">
-                  <a href="https://github.com/avinashpratap2003/Portfolio_ReactJs">Read More</a></button>
+                {/* <button className="button ">
+                  <a href="https://github.com/avinashpratap2003/Portfolio_ReactJs">Read More</a></button> */}
                 <a title="Github" href="https://github.com/avinashpratap2003/Portfolio_ReactJs"><FaGithub /></a>
                 <a title="Project Link" id="project_one_link" href=""><PiLinkSimpleBold /></a>
               </div>
@@ -39,6 +44,10 @@ const Projects = () => {
                 <img className="icon" src="stacks/CSS.png" alt="" />
                 <img className="icon" src="stacks/Javascript.svg" alt="" />
                 <img className="icon" src="stacks/React.png" alt="reactjs" />
+                <img className="icon" src="stacks/Tailwind.png" alt="" />
+                <img className="icon" src="stacks/Vercel.svg" alt="" />
+                <img className="icon" src="stacks/Git.svg" alt="" />
+                <img className="icon" src="stacks/Github.svg" alt="" />
               </div>
               <h2 className="project-name">Prepeat</h2>
               <p className="project-description">
@@ -46,8 +55,8 @@ const Projects = () => {
                customers can easily explore menus, customize orders, and enjoy swift delivery right to their doorsteps.
               </p>
               <div className="btn-group">
-                <button className="button">
-                <a href="https://github.com/avinashpratap2003/PrepEat_react">Read More</a></button>
+                {/* <button className="button">
+                <a href="https://github.com/avinashpratap2003/PrepEat_react">Read More</a></button> */}
                 <a title="Github" href="https://github.com/avinashpratap2003/PrepEat_react"><FaGithub /></a>
                 <a title="Project Link" href="https://prep-eat-react.vercel.app/"><PiLinkSimpleBold /></a>
               </div>
@@ -62,16 +71,21 @@ const Projects = () => {
                 <img className="icon" src="stacks/CSS.png" alt="css" />
                 <img className="icon" src="stacks/Javascript.svg" alt="java" />
                 <img className="icon" src="stacks/React.png" alt="reactjs" />
+                <img className="icon" src="stacks/Tailwind.png" alt="" />
+                <img className="icon" src="stacks/Vercel.svg" alt="" />
+                <img className="icon" src="stacks/Git.svg" alt="" />
+                <img className="icon" src="stacks/Github.svg" alt="" />
               </div>
-              <h2 className="project-name">Putatoe</h2>
+              <h2 className="project-name">Shoppingmart</h2>
               <p className="project-description">
-              A frontend designed e-commerce website which contains different daily usage products for the customers.
+                Shoppingmart is a versatile e-commerce platform offering a wide range of electronics and furniture items. 
+                It is designed to provide customers with a seamless shopping experience, showcasing high-quality products and user-friendly navigation.
               </p>
               <div className="btn-group">
-                <button className="button">
-                <a href="https://github.com/avinashpratap2003/Putatoe_react_Js">Read More</a></button>
-                <a title="Github" href="https://github.com/avinashpratap2003/Putatoe_react_Js"><FaGithub /></a>
-                <a title="Project Link" href="https://putatoe-react-js.onrender.com/"><PiLinkSimpleBold /></a>
+                {/* <button className="button">
+                <a href="https://github.com/avinashpratap2003/Putatoe_react_Js">Read More</a></button> */}
+                <a title="Github" href="https://github.com/avinashpratap2003/Shoppingmart"><FaGithub /></a>
+                <a title="Project Link" href="https://shoppingmart-red.vercel.app/"><PiLinkSimpleBold /></a>
               </div>
             </div>
           </div>

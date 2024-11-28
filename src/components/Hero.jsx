@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <div id="home">
+    <div id="about">
       <div className="hero-container">
         <div className="faded-name absolute">Avinash Pratap</div>
         <div className="hero-left">
@@ -29,12 +29,14 @@ const Hero = () => {
           </h1>
           <div className="para">
             <h1>
-              I'm a software developer and here is my portfolio website. Here
-              you'll learn about my journey as a software developer.
+              I am a motivated and versatile individual, always eager to take on new challenges.
+              With a passion for learning I am dedicated to delivering high-quality results. 
+              With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
             </h1>
           </div>
-          <div className="button" id="hire-button"><a href="#contacts">Hire me</a>
-            
+          <div className="button" id="hire-button"  
+          onClick={() => window.open('https://drive.google.com/file/d/1CmwIHgAkIx1nfv_rg28mFpmknz09ziOA/view?usp=drive_link', '_blank')}>
+            Check Resume
           </div>
         </div>
         <div className="hero-right">
@@ -46,14 +48,15 @@ const Hero = () => {
           <img className="profile-pic " src="usr profile/image.jpg" alt="" />
         </div>
         
-        <div className="button" id="bottom-button">
-          Hire me
+        <div className="button" id="bottom-button"
+        onClick={() => window.open('https://drive.google.com/file/d/1CmwIHgAkIx1nfv_rg28mFpmknz09ziOA/view?usp=drive_link', '_blank')}>
+        Check Resume
         </div>
       </div>
     </div>
   );
 };
-
+ 
 
 
 export default Hero;

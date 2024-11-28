@@ -13,11 +13,11 @@ const Navbar=()=>{
         <div className="navContainer">
             <div className="navContent">
                 <div className="navLeft">
-                  <h1><a href="#home">AVINASH</a></h1>
+                  <h1><a href="#about">AVINASH</a></h1>
                 </div>
                 <div className="navMiddle">
                     <ul className={click?"nav-menu active":"nav-menu"}>
-                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
                         <li><a href="#projects">PROJECTS</a></li>
                         <li><a href="#skills">SKILLS</a></li>
                         <li><a href="#contacts">CONTACT</a></li>

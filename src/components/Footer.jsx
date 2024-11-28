@@ -7,12 +7,16 @@ import { FaMobileAlt } from "react-icons/fa";
 
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <div>
       <footer>
         <div className="footer-container main-container">
           <div className="footer-wrapper">
             <div className="footer-faded-text">Avinash Pratap</div>
+
             <div className="link-wrapper ">
               <div>
                 <a href="#projects">Projects</a>
@@ -24,28 +28,34 @@ const Footer = () => {
                 <a href="#contacts">ContactMe</a>
               </div>
             </div>
-            <div className="icon-wrapper ">
-              <a href="https://www.linkedin.com/in/avinash-pratap-b22058233/" title="Linkedin">
-                <FaLinkedin />
-              </a>
-              <a href="https://github.com/avinashpratap2003" title="Github">
-                <FaGithub />
-              </a>
-              <a title="Instagram">
-                <FaInstagram />
-              </a>
-              <a href="mailto:pratapavinash843@gmail.com" title="Gmail">
-                <IoMailOutline />
-              </a>
-              <a title="+91-9151486417">
-                <FaMobileAlt />
-              </a>
+            <div className=" flex flex-col gap-5 text-center">
+                <div className="icon-wrapper ">
+                  <a href="https://www.linkedin.com/in/avinash-pratap-b22058233/" title="Linkedin">
+                    <FaLinkedin />
+                  </a>
+                  <a href="https://github.com/avinashpratap2003" title="Github">
+                    <FaGithub />
+                  </a>
+                  <a title="Instagram">
+                    <FaInstagram />
+                  </a>
+                  <a href="mailto:pratapavinash843@gmail.com" title="Gmail">
+                    <IoMailOutline />
+                  </a>
+                  <a title="+91-9151486417">
+                    <FaMobileAlt />
+                  </a>
+                </div>
+
+                <p className=" text-white font-medium xl: text-xs">&copy; {currentYear} Avinash Pratap. All rights reserved.</p>
             </div>
+            
           </div>
         </div>
       </footer>
     </div>
   );
 };
+
 
 export default Footer;

@@ -1,4 +1,6 @@
-
+#about{
+  padding-top: 2rem;
+}
 
 
 .hero-container{
@@ -11,8 +13,9 @@
     /* justify-content: space-between; */
     align-items: center;
     gap: 4rem;
-    margin: 6em auto -6rem;
+    margin: 6rem auto -6rem;
     padding-bottom: 8rem;
+    /* padding-top: 6rem; */
 }
 
 .faded-name{
@@ -23,7 +26,7 @@
   /* color: rgb(231, 231, 231); */
   color: #f1f4f9;
   z-index: 0;
-  bottom: -20%;
+  bottom: -18%;
   left: -5%;
   font-weight: bold;
   /* transition: all 3s; */

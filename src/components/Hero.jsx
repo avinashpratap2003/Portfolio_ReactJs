@@ -35,7 +35,7 @@ const Hero = () => {
             </h1>
           </div>
           <div className="button" id="hire-button"  
-          onClick={() => window.open('https://drive.google.com/file/d/1CmwIHgAkIx1nfv_rg28mFpmknz09ziOA/view?usp=drive_link', '_blank')}>
+          onClick={() => window.open('https://drive.google.com/file/d/1y4NcSg_hgrjKORWWWGPj5HzYOZ9zyKHX/view?usp=drive_link', '_blank')}>
             Check Resume
           </div>
         </div>
@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
         
         <div className="button" id="bottom-button"
-        onClick={() => window.open('https://drive.google.com/file/d/1CmwIHgAkIx1nfv_rg28mFpmknz09ziOA/view?usp=drive_link', '_blank')}>
+        onClick={() => window.open('https://drive.google.com/file/d/1y4NcSg_hgrjKORWWWGPj5HzYOZ9zyKHX/view?usp=drive_link', '_blank')}>
         Check Resume
         </div>
       </div>
